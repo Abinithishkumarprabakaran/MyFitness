@@ -79,16 +79,16 @@ export default function SearchExercises({ setExercises, bodyPart, setBodyPart}) 
         >
           Search
         </Button>
+      </Box>
 
-        <Box sx={{position:'relative', width:'100%', p:'20px'}}>
+      <Box sx={{position:'relative', width:'100%', p:'20px'}}>
           <HorizontalScrollBar 
             data={bodyParts}
             bodyPart={bodyPart}
             setBodyPart={setBodyPart} 
           />
-        </Box>
-
       </Box>
+
     </Stack>
   )
 }
