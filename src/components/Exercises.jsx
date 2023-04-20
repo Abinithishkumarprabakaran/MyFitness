@@ -35,7 +35,7 @@ export default function Exercises({ exercises, setExercises, bodyPart }) {
           `https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyPart}`, 
           exerciseOptions);
       }
-
+      
       setExercises(exercisesData);
     }
 

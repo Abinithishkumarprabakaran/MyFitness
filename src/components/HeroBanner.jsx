@@ -28,7 +28,8 @@ export default function HeroBanner() {
 
       <Button 
         variant="contained" 
-        color="error" href="#exercises"
+        color="error" 
+        href="#exercises"
         sx={{
           backgroundColor: '#FF2625',
           padding: '10px'
